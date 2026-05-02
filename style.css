@@ -1,0 +1,42 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+  padding: 0 16px;
+}
+
+header, main, footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+header nav a { color: #555; text-decoration: none; font-size: 14px; }
+header nav a:hover { color: #000; }
+header h1 { font-size: 2rem; margin-bottom: 8px; }
+header p  { color: #555; }
+
+h1 { font-size: 1.9rem; line-height: 1.2; margin-bottom: 16px; }
+h2 { font-size: 1.4rem; margin-top: 40px; margin-bottom: 12px; }
+h3 { font-size: 1.15rem; margin-top: 28px; margin-bottom: 8px; }
+p  { margin-bottom: 16px; }
+
+ul, ol { margin: 0 0 16px 24px; }
+li { margin-bottom: 6px; }
+
+a { color: #0066cc; }
+a:hover { color: #003d99; }
+
+.date { color: #888; font-size: 14px; margin-bottom: 32px; font-style: italic; }
+
+.article-list { list-style: none; margin: 0; padding: 0; }
+.article-list li { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid #eee; }
+.article-list a  { color: #0066cc; font-weight: 600; text-decoration: none; }
+.article-list a:hover { text-decoration: underline; }
+.article-list .date { font-size: 13px; color: #999; white-space: nowrap; margin-left: 16px; }
+
+footer { border-top: 1px solid #eee; color: #999; font-size: 13px; text-align: center; padding-top: 16px; }
